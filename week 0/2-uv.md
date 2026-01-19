@@ -4,4 +4,8 @@
 2. Add the command line `export PATH="$HOME/.local/bin:$PATH"` to `~/.bash_profile`
 3. Check for latest updates: `uv self update`
 
-Once you have it installed, you just need a `toml` file with all the Python dependencies and a `.python-version` for compatibilities. Then just run: `uv sync`.
+Once you have it installed, you just need a `toml` file with all the Python dependencies and a `.python-version` for compatibilities. Then just run: `uv sync`
+
+Finally you can install a couple of extensions in Cursor:
+- `Python` by `ms-python`
+- `Jupyter` by `ms-toolsai`
