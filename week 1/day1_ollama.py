@@ -87,3 +87,14 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error during summarization: {e}")
         print("Make sure Ollama is running and the model is installed!")
+
+        
+if __name__ == "__main__":
+    print("\n--- Summarizing Other Website ---")
+    try:
+        summary = summarize("https://manuel-valles.com/")
+        print("\nSummary:")
+        print(summary)
+    except Exception as e:
+        print(f"Error during summarization: {e}")
+        print("Make sure Ollama is running and the model is installed!")
