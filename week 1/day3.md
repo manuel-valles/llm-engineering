@@ -26,6 +26,6 @@ Work with Claude directly in your codebase. Build, debug, and ship from your ter
     - `$ claude` 
     - Inside the Claude terminal `> /logout`
 
-- Run Claude with a local model: `$ claude --model qwen2.5-coder`
+- Run Claude with a local model: `$ claude --model qwen2.5-coder:3b`
 
-> NOTE: Since the cloud qwen3-code is also paid, we had to go for a previous version and a 7b model
+> NOTE: Since the cloud qwen3-code is also paid, we had to go for a previous version and a 3b model. Either way, it is too slow! It's better to use the integrated Agents in Cursor.
